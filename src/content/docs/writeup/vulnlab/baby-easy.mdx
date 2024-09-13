@@ -1,5 +1,5 @@
 ---
-title: baby - Easy
+title: Baby - Easy
 description: WU baby - Easy
 categories: [Writeup]
 tags: [writeup]
@@ -9,13 +9,13 @@ Date : 2024-09-10 11:04
 
 ## 🔭 Périmètre
 
-IP: 10.10.124.47
+```IP: 10.10.124.47
 OS: Windows
-Domaine: baby.vl
+Domaine: baby.vl```
 
 ## 🔍 Récupération d'informations 
 
-### PortScan:
+### PortScan
 
 
 ```shell wrap
@@ -45,7 +45,7 @@ PORT      STATE SERVICE    VERSION
 Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 ```
 
-### Reconnaissance:
+### Reconnaissance
 
 En voyant le `port 389` d'ouvert je décide d'utiliser `ldapsearch` pour voir si je peux récupérer les informations de l'annuaire LDAP.
 
